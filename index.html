@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/zsy.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+
+  <script type="text/javascript">
+    function checkbox()
+    {
+    var str=document.getElementsByName("xz1");
+    var str1=document.getElementsByName("xz2");
+    var str2=document.getElementsByName("xz3");
+    var str3=document.getElementsByName("xz4");
+    var str4=document.getElementsByName("xz5");
+    var str5=document.getElementsByName("xz6");
+    var objarray=str.length;
+    var chestr="";
+    for (i=0;i<objarray;i++)
+    {
+     if(str[i].checked == true)
+     {
+      chestr+=str[i].value+",";
+     }
+    }
+    if(chestr == "")
+    { 
+     alert("您有未选择的表单，请选择后再提交。");
+    }
+    else
+    {
+     window.location.href=""
+    }
+}
+  </script>
+   <main>
+    <form>
+     <dl class="Xz1">
+      <dt>1.问题一</dt>
+      <dd><input type="radio" name="xz1" value="xz1" >1</dd>
+      <dd><input type="radio" name="xz1" value="xz1">2</dd>
+      <dd><input type="radio" name="xz1" value="xz1">3</dd>
+      <dd><input type="radio" name="xz1" value="xz1">4</dd>
+     </dl>
+     <dl class="Xz2">
+      <dt>2.问题二(多选)</dt>
+      <dd><input type="checkbox" name="xz2" value="xz2" >1</dd>
+      <dd><input type="checkbox" name="xz2" value="xz2">2</dd>
+      <dd><input type="checkbox" name="xz2" value="xz2">3</dd>
+      <dd><input type="checkbox" name="xz2" value="xz2">4</dd>
+      <dd><input type="checkbox" name="xz2" value="xz2">5</dd>
+      <dd><input type="checkbox" name="xz2" value="xz2">6</dd>
+     </dl>
+     <dl class="Xz3">
+      <dt>3.问题三</dt>
+      <dd><input type="radio" name="xz3" value="xz3" >1</dd>
+      <dd><input type="radio" name="xz3" value="xz3">2</dd>
+      <dd><input type="radio" name="xz3" value="xz3">3</dd>
+     </dl>
+     <dl class="Xz4">
+      <dt>4.问题四(多选)</dt>
+      <dd><input type="checkbox" name="xz4" value="xz4" >1</dd>
+      <dd><input type="checkbox" name="xz4" value="xz4">2</dd>
+      <dd><input type="checkbox" name="xz4" value="xz4">3</dd>
+      <dd><input type="checkbox" name="xz4" value="xz4">4</dd>
+     </dl>
+     <dl class="Xz5">
+      <dt>5.问题五</dt>
+      <dd><input type="radio" name="xz5" value="xz5">1</dd>
+      <dd><input type="radio" name="xz5" value="xz5">2</dd>
+      <dd><input type="radio" name="xz5" value="xz5">3</dd>
+     </dl>
+     <dl class="Xz6">
+      <dt>6.问题六(多选)</dt>
+      <dd><input type="checkbox" name="xz6" value="xz6" >1</dd>
+      <dd><input type="checkbox" name="xz6" value="xz6">2</dd>
+      <dd><input type="checkbox" name="xz6" value="xz6">3</dd>
+      <dd><input type="checkbox" name="xz6" value="xz6">4</dd>
+     </dl>
+     <div class="djtj"><input type="button" name="button" id="button" onclick="checkbox()" value="点击提交"></div>
+    </form>
+  </main>
+</div>
+	
+</body>
+</html>

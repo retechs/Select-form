@@ -1,0 +1,49 @@
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;}
+textarea {  -webkit-appearance: none;}   
+
+main dl{ width: 97%;height: auto; overflow: hidden; margin-top: 1rem;margin-left: 3%;}
+main dl dt{ display: table; font-size: 1rem; font-weight: bold; text-align: center;background: #8B3129;padding: 0 .5rem 0 .3rem;position: relative; color: #fff;height: 2.5rem;line-height: 2.45rem;background:url(../images/btbj1.png);background-repeat: repeat-x;background-size: .3rem 2.45rem;margin-bottom: .5rem; }
+
+main dl dt:before{position: absolute;content: "";background: url(../images/btbjq.png) center center/0.25rem 2.45rem; width: 0.255rem;height: 2.45rem;left: 0rem;top: 0;}
+main dl dt:after{position: absolute;content: "";background: url(../images/btbjr.png) center center/18.4rem 2.45rem; width: 18.4rem;height: 2.45rem;   right: -18.4rem;;top: 0;}
+
+
+
+
+main dl dd{ display: block; float: left; width: 50%; overflow: hidden; font-size: .9rem; vertical-align: top;margin-top: .3rem;height: 1.5rem;}
+main dl dd input{ display: inline-block; margin: .1rem .5rem 0 .3rem; width: 1rem;height: 1rem;border-radius: 1rem;border:none;}
+main div.djtj {width: 9rem;height:2.5rem; margin: 1rem auto;}
+main div.djtj input{ width: 100%;height: 3rem;line-height: 3rem;background: #F28E23; border:none;border-radius: .2rem;font-size: 1rem; color: #fff; }
+
+main dl.Xz2 dd,main dl.Xz3 dd,main dl.Xz5 dd,main dl.Xz9 dd{ width: 33.3%; }
+main dl.Xz6 dd,main dl.Xz7 dd,main dl.Xz10 dd{ width: 25%; }
+main dl.Xz4 dd,main dl.Xz8 dd{ width: 100%; }
+
+main dl.Xz6 dd:nth-of-type(1){ width: 20%; }
+main dl.Xz6 dd:nth-of-type(2){ width: 30%; }
+/*抽奖券*/
+
+.Jc{ width: 100%;height: all;overflow: hidden; background-color: #C5A087;}
+.Jc h3{ text-align: center; color: #fff;font-size: 1.5rem;margin: 1rem auto; font-weight: bold; word-spacing: .5rem; }
+
+.Jc figure{ width: 94%;margin: 1rem auto; border-bottom: 1px dashed #B2A094;padding-bottom: .5rem; }
+.Jc figure img{ display: inline-block; width: 4.8rem;height: 4.95rem; }
+.Jc figure figcaption{ display: inline-block;  width: 20rem;height: auto; font-weight: bold; vertical-align: top; letter-spacing:.5rem;}
+.Jc figure figcaption p{ display: block; font-size: 1.4rem;margin-top: .5rem;letter-spacing:.3rem; }
+.Jc figure figcaption p b{ color: #CA0003; }
+.Jc figure figcaption p span{ color: #40210C; }
+.Jc figure figcaption em{ color: #C5A087;font-size: 1.6rem; display: block; }
+.Jc ul{ display: block;width: 94%; height: auto;margin: 1rem auto;background-color: #fff;border-radius: .3rem;border:.3rem solid #E2BFA6; }
+.Jc ul li{ display: block; width: 94%; margin: .5rem auto;font-size: 0.95rem; }
+.Jc ul li b{ font-size: 1.2rem; }
+.Jc ul li span{ color: #7B0D34;font-size: 0.9rem;margin-left: .5rem; }
+.Jc ul a{ display: block; width: 17.0rem;height: 3.0rem;text-align: center;line-height: 3.0rem; color: #fff;background-color: #F06508;border-radius: .2rem;margin: 1rem auto; font-weight: bold;font-size: 1.2rem;box-shadow: 0 0.2rem .2rem 0 #D87E41; }
+
+.Jc section{ width: 94%;  border-top: 1px dashed #B2A094; height: auto;overflow: hidden; margin: 0 auto;}
+.Jc section dl{}
+.Jc section dl dt{ font-size: 1.4rem; font-weight: bold;margin: 1rem 0 1rem 0; }
+.Jc section dl dd{background-color: #F2DCCD;padding: .2rem 0 .2rem .5rem;}
+.Jc section dl dd b{ color: #700D0D;font-size: 1.2rem; }
+.Jc section ol{}
+.Jc section ol li{}
